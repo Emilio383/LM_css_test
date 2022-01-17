@@ -1,0 +1,130 @@
+body {
+    background:rgb(160, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 30px;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+head {
+    align-self: center;
+}
+.h2test{
+    color: rgb(255, 255, 255);
+    font-size: 32;
+    font-style: italic;
+    text-align: left;
+}
+h2,h3,h4,h5,h6{
+    color: rgb(38, 131, 238);
+    font-size: 32;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color: grey;
+    text-align: justify;
+   }
+div{
+    border:1px solid black;
+    width:90%;
+    height:auto;
+    padding:5px;
+    background: lemonchiffon;
+    margin: 10px 20px;
+    padding: 10px;
+    align-self: center;
+    border:1px solid lightcoral;
+    display: inline-block;
+    }
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(248, 226, 26);
+    border-style: double;
+    background-color: rgba(184, 11, 11, 0.24);
+    font-family: fantasy;
+    font-size: 20px;
+    }     
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left; 
+    }
+    * {
+        margin: 5px;;
+        padding: 1px;;
+    }  
+    .nombre{
+        display: block;
+        font-size: 2em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 250px;
+        font-weight: bold;
+        color: rgb(247, 234, 234);
+    } 
+    .cuestionario{
+        display: block;
+        font-size: 2.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: bold;
+        color: rgb(64, 97, 206);
+        text-align: center; 
+    }  
+    .formu{
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        color: rgb(31, 30, 30);
+        text-align: justify;
+        background-color: rgb(146, 230, 202, 0.5);
+        border-style: dotted;
+        border-color: midnightblue;
+    }   
+    .haiku{
+        text-rendering: geometricPrecision;
+        font-size: 20px;
+        text-align: left;
+        color: rgb(169, 192, 192);
+    }  
+    .expli{
+        text-justify: distribute;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.486);
+        border-color: crimson;
+        border-style: dashed;
+        color: rgb(255, 255, 255);
+    }
+    .tabla2{
+        table-layout: fixed;
+        width: 100%;
+        border-style: hidden;
+        background-color: rgba(248, 240, 240, 0.541);
+        font-family: fantasy;
+        font-size: 20px;
+        font-style: italic;
+        }
+    .fototop{
+        margin-left: 250px;
+        width: 75%;
+        height: auto;
+    }
+ol{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(245, 246, 250); 
+    background-color: rgba(1, 5, 243, 0.5);
+    border-style: double;
+    border-color: lightyellow;
+}
